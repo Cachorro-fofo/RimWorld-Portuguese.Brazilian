@@ -47,7 +47,7 @@
   <!-- EN: Opinions -->
   <Opinions>Opiniões</Opinions>
   <!-- EN: Mental breaks -->
-  <MentalBreaks>TODO</MentalBreaks>
+  <MentalBreaks>Colapsos Mentais</MentalBreaks>
   <!-- EN: Randomize name -->
   <RandomizeName>Aleatorizar nome</RandomizeName>
   <!-- EN: Randomize precepts -->
@@ -94,8 +94,6 @@
   <StartingCondition_Date>Data</StartingCondition_Date>
   <!-- EN: Starting condition -->
   <StartingCondition>condição inicial</StartingCondition>
-  <!-- EN: Edit -->
-  <Edit>Editar</Edit>
   <!-- EN: Randomize symbols -->
   <RandomizeSymbols>Aleatorizar símbolos</RandomizeSymbols>
   <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
@@ -121,7 +119,7 @@
   <!-- EN: Slaves will not do this work -->
   <WorkDisabledSlave>Escravos não farão este trabalho</WorkDisabledSlave>
   <!-- EN: Disabled by health condition -->
-  <WorkDisabledHealth>TODO</WorkDisabledHealth>
+  <WorkDisabledHealth>Desativado por condições de saúde</WorkDisabledHealth>
   <!-- EN: Disabled by {0} role -->
   <WorkDisabledRole>Desativado pelo papel {0}</WorkDisabledRole>
   <!-- EN: Affected by traits -->

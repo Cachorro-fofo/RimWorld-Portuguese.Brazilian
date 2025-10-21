@@ -17,9 +17,9 @@
   <MeleeArmorPenetration.description>Penetração média de armadura de todos os ataques em combate corpo a corpo. Esta estatística inclui a arma usada atualmente.</MeleeArmorPenetration.description>
   
   <!-- EN: melee cooldown -->
-  <MeleeCooldownFactor.label>TODO</MeleeCooldownFactor.label>
+  <MeleeCooldownFactor.label>Multiplicador do tempo de recarga corpo a corpo</MeleeCooldownFactor.label>
   <!-- EN: A multiplier on the time this creature takes to recover after making a melee attack. -->
-  <MeleeCooldownFactor.description>TODO</MeleeCooldownFactor.description>
+  <MeleeCooldownFactor.description>Multiplicador no tempo que esta criatura leva para se recuperar após realizar um ataque corpo a corpo.</MeleeCooldownFactor.description>
   
   <!-- EN: melee damage factor -->
   <MeleeDamageFactor.label>fator de dano corpo a corpo</MeleeDamageFactor.label>
@@ -59,24 +59,24 @@
   <RangedCooldownFactor.description>Um multiplicador no tempo de recarga entre rajadas ao usar uma arma de longo alcance.</RangedCooldownFactor.description>
   
   <!-- EN: accuracy factor (long) -->
-  <ShootingAccuracyFactor_Long.label>TODO</ShootingAccuracyFactor_Long.label>
+  <ShootingAccuracyFactor_Long.label>Multiplicador de precisão (longa distância)</ShootingAccuracyFactor_Long.label>
   <!-- EN: A multiplier on accuracy at a distance of 40 cells or more. -->
-  <ShootingAccuracyFactor_Long.description>TODO</ShootingAccuracyFactor_Long.description>
+  <ShootingAccuracyFactor_Long.description>Multiplicador na precisão a uma distância de 40 células ou mais.</ShootingAccuracyFactor_Long.description>
   
   <!-- EN: accuracy factor (medium) -->
-  <ShootingAccuracyFactor_Medium.label>TODO</ShootingAccuracyFactor_Medium.label>
+  <ShootingAccuracyFactor_Medium.label>Multiplicador de precisão (distância média)</ShootingAccuracyFactor_Medium.label>
   <!-- EN: A multiplier on accuracy at a distance of 25 cells. -->
-  <ShootingAccuracyFactor_Medium.description>TODO</ShootingAccuracyFactor_Medium.description>
+  <ShootingAccuracyFactor_Medium.description>Multiplicador na precisão a uma distância de 25 células.</ShootingAccuracyFactor_Medium.description>
   
   <!-- EN: accuracy factor (short) -->
-  <ShootingAccuracyFactor_Short.label>TODO</ShootingAccuracyFactor_Short.label>
+  <ShootingAccuracyFactor_Short.label>Multiplicador de precisão (curta distância)</ShootingAccuracyFactor_Short.label>
   <!-- EN: A multiplier on accuracy at a distance of 12 cells. -->
-  <ShootingAccuracyFactor_Short.description>TODO</ShootingAccuracyFactor_Short.description>
+  <ShootingAccuracyFactor_Short.description>Multiplicador na precisão a uma distância de 12 células.</ShootingAccuracyFactor_Short.description>
   
   <!-- EN: accuracy factor (close) -->
-  <ShootingAccuracyFactor_Touch.label>TODO</ShootingAccuracyFactor_Touch.label>
+  <ShootingAccuracyFactor_Touch.label>Multiplicador de precisão (distância próxima)</ShootingAccuracyFactor_Touch.label>
   <!-- EN: A multiplier on accuracy at a distance of 3 cells or less. -->
-  <ShootingAccuracyFactor_Touch.description>TODO</ShootingAccuracyFactor_Touch.description>
+  <ShootingAccuracyFactor_Touch.description>Multiplicador na precisão a uma distância de 3 células ou menos.</ShootingAccuracyFactor_Touch.description>
   
   <!-- EN: shooting accuracy -->
   <ShootingAccuracyPawn.label>precisão de tiro</ShootingAccuracyPawn.label>

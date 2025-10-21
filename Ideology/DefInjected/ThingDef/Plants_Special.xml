@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: chopped gauranlen stump -->
-  <ChoppedStump_Gauranlen.label>TODO</ChoppedStump_Gauranlen.label>
-  <!-- EN: A stump left behind after a garuanlen tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
-  <ChoppedStump_Gauranlen.description>TODO</ChoppedStump_Gauranlen.description>
+  <ChoppedStump_Gauranlen.label>toco de gauranlena picado</ChoppedStump_Gauranlen.label>
+  <!-- EN: A stump left behind after a gauranlen tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <ChoppedStump_Gauranlen.description>Um toco deixado para trás após a derrubada de uma árvore garuanlena. O toco pode ser extraído, mas rende muito pouca madeira utilizável. Deixado ao ar livre, o toco se deteriora com o tempo.</ChoppedStump_Gauranlen.description>
   
   <!-- EN: Gauranlen seed -->
   <GauranlenSeed.label>semente Gauranlena</GauranlenSeed.label>
-  <!-- EN: The seed of a Gauranlan tree. It can be planted to create a new Gauranlen tree. -->
+  <!-- EN: The seed of a Gauranlen tree. It can be planted to create a new Gauranlen tree. -->
   <GauranlenSeed.description>A semente de uma árvore Gauranlena. Pode ser plantado para criar uma nova árvore Gauranlena.</GauranlenSeed.description>
   
   <!-- EN: fibercorn -->
@@ -31,11 +31,6 @@
   <!-- EN: A small pod that protects a single Gauranlen seed. This seed can be harvested and used to plant a Gauranlen tree. -->
   <Plant_PodGauranlen.description>Um pequeno casulo que protege uma única semente Gauranlena. Esta semente pode ser colhida e usada para plantar uma árvore Gauranlena.</Plant_PodGauranlen.description>
   
-  <!-- EN: timbershroom -->
-  <Plant_Timbershroom.label>cogumadeira</Plant_Timbershroom.label>
-  <!-- EN: A tall brown mushroom with a long stem. When harvested, it yields a wood-like substance. -->
-  <Plant_Timbershroom.description>Um cogumelo marrom alto com um longo caule. Quando colhido, produz uma substância semelhante à madeira.</Plant_Timbershroom.description>
-  
   <!-- EN: bonsai tree -->
   <Plant_TreeBonsai.label>bonsai</Plant_TreeBonsai.label>
   <!-- EN: A small tree, pruned and shaped to look visually pleasing. -->
@@ -47,8 +42,8 @@
   <Plant_TreeGauranlen.description>Uma árvore grande e de aparência distinta com um ciclo de vida único. Cada árvore Gauranlena contém uma pequena rainha dríade inconsciente. A rainha dá à luz criaturas chamadas dríades, que guardam e cuidam da árvore. Em troca, a árvore nutre seus protetores, alimentando-os diretamente. Do lado de fora, parece que as dríades são criadas diretamente pela árvore e agem como parte dela.\n\nÉ possível para uma pessoa formar uma conexão com uma árvore Gauranlena e controlar parcialmente as dríades que ela produz.\n\nAlguns dizem que as árvores Gauranlenas são os lares dos espíritos da natureza que seguem a humanidade através dos mundos.</Plant_TreeGauranlen.description>
   
   <!-- EN: smashed gauranlen stump -->
-  <SmashedStump_Gauranlen.label>TODO</SmashedStump_Gauranlen.label>
+  <SmashedStump_Gauranlen.label>toco de gauranlena esmagado</SmashedStump_Gauranlen.label>
   <!-- EN: The remnants of a gauranlen tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
-  <SmashedStump_Gauranlen.description>TODO</SmashedStump_Gauranlen.description>
+  <SmashedStump_Gauranlen.description>Restos de uma árvore gauranlena destruída pelos danos. É feio. O toco pode ser extraído, mas rende muito pouca madeira utilizável. Deixado ao ar livre, o toco se deteriora com o tempo.</SmashedStump_Gauranlen.description>
   
 </LanguageData>

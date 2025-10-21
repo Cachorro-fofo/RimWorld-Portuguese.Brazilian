@@ -59,8 +59,8 @@
   <LetterRoleLostReasonLowBelieversDesc>A função tornou-se inativa devido à baixa contagem de {0}.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
   <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} perdeu a posição {PAWN_possessive} como {ROLE_labelDef} porque {PAWN_pronoun} abandonou o {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
-  <!-- EN: {0} skipped. -->
-  <LetterObligationRoleInactive>{0} ignorado.</LetterObligationRoleInactive>
+  <!-- EN: {0} skipped -->
+  <LetterObligationRoleInactive>{0} ignorado</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
   <LetterObligationRoleInactiveDateDesc>{0} é a data de {1}, mas como o papel {ROLE_labelDef} está inativo, os {2} s irão ignorar o {1}.</LetterObligationRoleInactiveDateDesc>
   
@@ -112,7 +112,7 @@
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
   <LetterIdeoChangedWanderOwnRoom>Para chegar a um acordo com as crenças de {PAWN_possessive}, {PAWN_nameDef} agora está escondido na sala {PAWN_possessive}.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
-  <LetterIdeoChangedSadWander>{PAWN_nameDef} agora está vagando em estado de choque enquanto luta com as crenças de {PAWN_possessive}.</LetterIdeoChangedSadWander>
+  <LetterIdeoChangedSadWander>{PAWN_nameDef} agora está vagando em estado de choque enquanto luta com suas crenças.</LetterIdeoChangedSadWander>
 
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
@@ -157,8 +157,8 @@
   <LetterTextRelicLost>{0} foi perdido! \ In \ As seguintes pessoas sofrerão uma redução de humor:\n\n{1}</LetterTextRelicLost>
 
   <!-- Caravan destroyed -->
-  <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
-  <LetterOnlySlaveCaravanColonistsLeft>Todos os membros não escravos de {0} morreram. Os escravos restantes foram embora. A caravana desabou.</LetterOnlySlaveCaravanColonistsLeft>
+  <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disbanded. -->
+  <LetterOnlySlaveCaravanColonistsLeft>Todos os membros não escravos de {0} morreram. Os escravos restantes foram embora. A caravana se desfez.</LetterOnlySlaveCaravanColonistsLeft>
 
   <!-- Hacker lost -->
   <!-- EN: Last hacker lost -->

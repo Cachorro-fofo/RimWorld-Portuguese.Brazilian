@@ -32,9 +32,9 @@
   <FenceGate.description>Um portão simples feito de postes e travessas. Bloqueia alguns animais como uma cerca. Os domadores podem conduzir os animais para dentro e para fora do cercado por esses portões.</FenceGate.description>
   
   <!-- EN: ornate door -->
-  <OrnateDoor.label>TODO</OrnateDoor.label>
+  <OrnateDoor.label>porta ornamentada</OrnateDoor.label>
   <!-- EN: Divides rooms. An intricately-carved door, decorated with gold. This large, heavy door requires adjacent walls to function. -->
-  <OrnateDoor.description>TODO</OrnateDoor.description>
+  <OrnateDoor.description>Divide cômodos. Uma porta delicadamente esculpida, decorada com ouro. Esta porta grande e pesada requer paredes adjacentes para funcionar.</OrnateDoor.description>
   
   <!-- EN: wall -->
   <Wall.label>parede</Wall.label>

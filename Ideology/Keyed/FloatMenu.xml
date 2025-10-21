@@ -7,8 +7,10 @@
   <OnlyMembersCanBuild>Apenas {0}s podem construir</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} já está em andamento.</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>{RITUAL} não pode ser realizado em {LAYER}.</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
-  <CantJoinRitualInExtremeWeather>TODO</CantJoinRitualInExtremeWeather>
+  <CantJoinRitualInExtremeWeather>Um ou mais participantes não puderam participar devido à temperatura extrema.</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} já está participando de um ritual.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
@@ -22,11 +24,11 @@
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} é surdo(a) psiquicamente.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelSpectators>TODO</CantStartNotEnoughSpaceDuelSpectators>
+  <CantStartNotEnoughSpaceDuelSpectators>Não há espaço suficiente para espectadores. É necessário um círculo livre de raio {MINRADIUS}. São necessários pelo menos {1} lugares de pé nesse raio.</CantStartNotEnoughSpaceDuelSpectators>
   <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelDuelists>TODO</CantStartNotEnoughSpaceDuelDuelists>
+  <CantStartNotEnoughSpaceDuelDuelists>Não há espaço suficiente para duelistas. É necessário um círculo livre com raio de {MINRADIUS}. São necessários pelo menos {1} lugares de apoio nesse raio.</CantStartNotEnoughSpaceDuelDuelists>
   <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuelSpeaker>TODO</CantStartNotEnoughSpaceDuelSpeaker>
+  <CantStartNotEnoughSpaceDuelSpeaker>Não há espaço suficiente para o alto-falante. É necessário um círculo livre de raio {MINRADIUS}.</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
   <CantStartFuneralForSlave>{0_labelShort} é um(a) escravo(a). Escravos não têm funerais.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
@@ -36,8 +38,6 @@
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>não permitido para facção</NotAllowedForFaction>
 
-  <!-- EN: Remove -->
-  <Remove>Remover</Remove>
   <!-- EN: Remove precept -->
   <RemovePrecept>Remover preceito</RemovePrecept>
   <!-- EN: Regenerate -->
@@ -102,17 +102,6 @@
   <!-- EN: recolor apparel -->
   <RecolorApparel>recolorir vestuário</RecolorApparel>
 
-  <!-- EN: Hack {0} -->
-  <Hack>Hackear {0}</Hack>
-  <!-- EN: Cannot hack {0} -->
-  <CannotHack>Não é possível hackear {0}</CannotHack>
-  <!-- EN: Already hacked -->
-  <AlreadyHacked>Já hackeado</AlreadyHacked>
-  <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>Incapaz de hackear</IncapableOfHacking>
-  <!-- EN: to drop supplies -->
-  <ToDropSupplies>descartar suprimentos</ToDropSupplies>
-
   <!-- EN: Install {0} -->
   <InstallRelic>Instalar {0}</InstallRelic>
   <!-- EN: Extract {0} -->
@@ -166,7 +155,7 @@
   <BiosculpterAutoAgeReversalLabel>Reversão automática de idade para {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
   <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
   <BiosculpterAutoAgeReversalDescription>Satisfaz automaticamente o desejo de {PAWN_labelShort} de executar um tratamento de reversão de idade anual nessa cápsula, de acordo com suas crenças. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
-  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treatment in {TIME} if the pod is ready. -->
   <BiosculpterAutoAgeReversalDescriptionFuture>Se habilitado, {PAWN_labelShort} fará automaticamente seu próximo tratamento em {TIME} se a cápsula estiver pronta.</BiosculpterAutoAgeReversalDescriptionFuture>
   <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
   <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} já deseja seu próximo tratamento e iniciará um automaticamente se isso estiver habilitado.</BiosculpterAutoAgeReversalDescriptionNow>

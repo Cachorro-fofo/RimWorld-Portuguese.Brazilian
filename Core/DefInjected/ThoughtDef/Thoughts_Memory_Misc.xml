@@ -123,9 +123,13 @@
   <NewColonyOptimism.stages.initial_optimism.description>É uma situação difícil, mas estou animado para fundar uma nova colônia.</NewColonyOptimism.stages.initial_optimism.description>
   
   <!-- EN: nuzzled -->
-  <Nuzzled.stages.nuzzled.label>acariciado</Nuzzled.stages.nuzzled.label>
+  <Nuzzled.stages.nuzzled-0.label>acariciado</Nuzzled.stages.nuzzled-0.label>
   <!-- EN: A cute animal nuzzled me. -->
-  <Nuzzled.stages.nuzzled.description>Um animal fofo me acariciou.</Nuzzled.stages.nuzzled.description>
+  <Nuzzled.stages.nuzzled-0.description>Um animal fofo me acariciou.</Nuzzled.stages.nuzzled-0.description>
+  <!-- EN: nuzzled -->
+  <Nuzzled.stages.nuzzled-1.label>acariciado</Nuzzled.stages.nuzzled-1.label>
+  <!-- EN: It is so cute, and supportive, and loving... I feel fulfilled and refreshed. -->
+  <Nuzzled.stages.nuzzled-1.description>É tão fofo, tão solidário e amoroso... Sinto-me realizada e renovada.</Nuzzled.stages.nuzzled-1.description>
   
   <!-- EN: observed corpse -->
   <ObservedLayingCorpse.stages.observed_corpse.label>observou cadáver</ObservedLayingCorpse.stages.observed_corpse.label>
@@ -148,9 +152,9 @@
   <PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>Nós banimos um prisioneiro de tal maneira que quase não há como sobreviver.</PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>
   
   <!-- EN: used flame weapon -->
-  <PyroUsed.stages.used_flame_weapon.label>TODO</PyroUsed.stages.used_flame_weapon.label>
+  <PyroUsed.stages.used_flame_weapon.label>arma de fogo usada</PyroUsed.stages.used_flame_weapon.label>
   <!-- EN: The searing heat will make my foes beautiful! -->
-  <PyroUsed.stages.used_flame_weapon.description>TODO</PyroUsed.stages.used_flame_weapon.description>
+  <PyroUsed.stages.used_flame_weapon.description>O calor escaldante deixará meus inimigos lindos!</PyroUsed.stages.used_flame_weapon.description>
   
   <!-- EN: prisoner released -->
   <ReleasedHealthyPrisoner.stages.prisoner_released.label>prisioneiro libertado</ReleasedHealthyPrisoner.stages.prisoner_released.label>

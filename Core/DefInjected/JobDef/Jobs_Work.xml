@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: Analyzing TargetA. -->
-  <AnalyzeItem.reportString>TODO</AnalyzeItem.reportString>
+  <AnalyzeItem.reportString>Analisando TargetA.</AnalyzeItem.reportString>
   
   <!-- EN: arresting TargetA. -->
   <Arrest.reportString>prendendo TargetA.</Arrest.reportString>
@@ -20,7 +20,7 @@
   <CarryDownedPawnToExit.reportString>transportando TargetA.</CarryDownedPawnToExit.reportString>
   
   <!-- EN: carrying TargetA. -->
-  <CarryDownedPawnToPortal.reportString>TODO</CarryDownedPawnToPortal.reportString>
+  <CarryDownedPawnToPortal.reportString>transportando TargetA.</CarryDownedPawnToPortal.reportString>
   
   <!-- EN: carrying TargetA to cryptosleep casket. -->
   <CarryToCryptosleepCasket.reportString>carregando TargetA para sarcófago de criptosono.</CarryToCryptosleepCasket.reportString>
@@ -43,6 +43,9 @@
   <!-- EN: deconstructing TargetA. -->
   <Deconstruct.reportString>desconstruindo TargetA.</Deconstruct.reportString>
   
+  <!-- EN: deconstructing TargetA. -->
+  <DeconstructForBlueprint.reportString>desconstruindo TargetA.</DeconstructForBlueprint.reportString>
+  
   <!-- EN: feeding TargetA to TargetB. -->
   <DeliverFood.reportString>entregando TargetA para TargetB.</DeliverFood.reportString>
   
@@ -61,6 +64,9 @@
   <!-- EN: feeding TargetA to TargetB. -->
   <FeedPatient.reportString>levando TargetA para TargetB.</FeedPatient.reportString>
   
+  <!-- EN: filling in TargetA. -->
+  <FillIn.reportString>preechendo TargetA</FillIn.reportString>
+  
   <!-- EN: building TargetA. -->
   <FinishFrame.reportString>construindo TargetA.</FinishFrame.reportString>
   
@@ -69,6 +75,9 @@
   
   <!-- EN: executing TargetA. -->
   <GuiltyColonistExecution.reportString>executando TargetA.</GuiltyColonistExecution.reportString>
+  
+  <!-- EN: hacking TargetA. -->
+  <Hack.reportString>hackeando TargetA.</Hack.reportString>
   
   <!-- EN: harvesting TargetA. -->
   <Harvest.reportString>colhendo TargetA.</Harvest.reportString>
@@ -126,6 +135,9 @@
   
   <!-- EN: removing floor. -->
   <RemoveFloor.reportString>removendo piso.</RemoveFloor.reportString>
+  
+  <!-- EN: removing foundation. -->
+  <RemoveFoundation.reportString>removendo fundação.</RemoveFoundation.reportString>
   
   <!-- EN: removing paint from TargetA. -->
   <RemovePaintBuilding.reportString>removendo pintura de TargetA.</RemovePaintBuilding.reportString>

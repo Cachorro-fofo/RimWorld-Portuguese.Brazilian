@@ -108,7 +108,7 @@
     <li>destroyed_suffix->a fine mist</li>
     <li>destroyed_suffix->fragments</li>
     <li>destroyed_suffix(p=0.5)->a holey mess</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->ground beef</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->ground beef</li>
     <li>damaged_past->wounded</li>
     <li>damaged_past->injured</li>
     <li>damaged_past->pierced</li>
@@ -120,8 +120,8 @@
     <li>damaged_present->damaging</li>
     <li>damaged_present->shooting</li>
     <li>damaged_suffix->in an ugly fashion</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->with visible blood</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->with the flesh visible</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->with visible blood</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->with the flesh visible</li>
     <li>to->to</li>
     <li>to->into</li>
     <li>missed->missed</li>
@@ -160,7 +160,7 @@
     <li>destroyed_suffix->uma névoa fina</li>
     <li>destroyed_suffix->fragmentos</li>
     <li>destroyed_suffix(p=0.5)->uma grande bagunça</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->carne moída</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->carne moída</li>
     <li>damaged_past->feriu</li>
     <li>damaged_past->perfurou</li>
     <li>damaged_past->danificou</li>
@@ -168,8 +168,8 @@
     <li>damaged_present->perfurando</li>
     <li>damaged_present->danificando</li>
     <li>damaged_suffix->de uma forma feia</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->com sangue visível</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->com a carne visível</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->com sangue visível</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->com a carne visível</li>
     <li>missed->errou</li>
     <li>missed->errou por pouco</li>
   </Combat_RangedDamage.rulePack.rulesStrings>
@@ -300,14 +300,14 @@
     <li>adverb_threw->quickly</li>
     <li>adverb_threw->precisely</li>
     <li>adverb_threw->deliberately</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->gingerly</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->gingerly</li>
     <li>adverb_threw->precisely</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->warily</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->warily</li>
     <li>adjective_threw->careful</li>
     <li>adjective_threw->quick</li>
     <li>adjective_threw->deliberate</li>
     <li>adjective_threw->precise</li>
-    <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
+    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite] [threw] seu(ua) [projectile] em [RECIPIENT_definite].</li>
@@ -325,14 +325,14 @@
     <li>adverb_threw->rapidamente</li>
     <li>adverb_threw->precisamente</li>
     <li>adverb_threw->deliberadamente</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->cautelosamente</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->cautelosamente</li>
     <li>adverb_threw->precisamente</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->cautelosamente</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->cautelosamente</li>
     <li>adjective_threw->cuidadoso</li>
     <li>adjective_threw->rápido</li>
     <li>adjective_threw->deliberado</li>
     <li>adjective_threw->preciso</li>
-    <li>adjective_threw(initiator_flesh!=Mechanoid)->cauteloso</li>
+    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->cauteloso</li>
   </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
   <!-- EN:

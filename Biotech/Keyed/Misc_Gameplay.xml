@@ -26,11 +26,15 @@
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0} mecanoides</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
-  <BossWithApparel>TODO</BossWithApparel>
+  <BossWithApparel>{BOSS} com {APPAREL}</BossWithApparel>
+  <!-- EN: Resulting from gene -->
+  <ComesFromGene>Resultante do gene</ComesFromGene>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>removendo {0}.</ReportRemovingMechlink>
+  <!-- EN: from {TEACHER_labelShort} -->
+  <ReportTakingLessonFrom>de {TEACHER_labelShort}</ReportTakingLessonFrom>
 
   <!-- Areas -->
   <!-- EN: Pollution clear -->
@@ -78,7 +82,7 @@
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Carregando recursos de gestação mecanoide</LoadingMechGestator>
   <!-- EN: Time left this cycle -->
-  <GestatingInspect>TODO</GestatingInspect>
+  <GestatingInspect>Tempo restante deste ciclo</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>Iniciando ciclo de gestação mecanoide</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -99,12 +103,14 @@
   <ReadyToSummonThreat>Ameaça do(a) {0} pronta para ser convocada</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
   <Summon>Convocar a ameaça do(a) {0}</Summon>
+  <!-- EN: Mechanoids disabled -->
+  <MechsDisabled>Mecanoides desativados</MechsDisabled>
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>{0} não acessível</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
   <NoReservableBossgroupCaller>{0} não reservável</NoReservableBossgroupCaller>
   <!-- EN: No powered {0} -->
-  <NoPoweredBossgroupCaller>Não energizado</NoPoweredBossgroupCaller>
+  <NoPoweredBossgroupCaller>{0} sem energia</NoPoweredBossgroupCaller>
   <!-- EN: already used -->
   <AlreadyUsed>já usado</AlreadyUsed>
   <!-- EN: Gestating -->
@@ -118,7 +124,7 @@
   <!-- EN: Uncontrolled -->
   <Uncontrolled>Não controlado</Uncontrolled>
   <!-- EN: incoming {0} -->
-  <BossgroupIncoming>TODO</BossgroupIncoming>
+  <BossgroupIncoming>{0} chegando</BossgroupIncoming>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -170,7 +176,7 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef} deve realizar descanso mortal em breve para evitar exaustão.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc>
+  <AutoTakeHemogenDesc>Isso determina se {PAWN_nameDef} ingerirá automaticamente pacotes de hemogênio quando o hemogênio de {PAWN_possessive} estiver abaixo de {MIN}.\n\nA ingestão automática está atualmente {ONOFF}.</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>Consuma hemogênio quando abaixo de</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -248,12 +254,6 @@
   <!-- EN: Giving birth. -->
   <GivingBirth>Dando à luz.</GivingBirth>
 
-  <!-- Shield comp -->
-  <!-- EN: Shield energy -->
-  <ShieldEnergy>Energia do escudo</ShieldEnergy>
-  <!-- EN: Time to recovery -->
-  <ShieldTimeToRecovery>Tempo para recuperação</ShieldTimeToRecovery>
-
   <!-- Genes -->
   <!-- EN: genes -->
   <Genes>genes</Genes>
@@ -278,9 +278,9 @@
   <!-- EN: Genepacks stored -->
   <GenepacksStored>Pacotes de gene armazenados</GenepacksStored>
   <!-- EN: Auto-load -->
-  <GenepackAutoLoad>TODO</GenepackAutoLoad>
+  <GenepackAutoLoad>Carregamento Automático</GenepackAutoLoad>
   <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
-  <GenepackAutoLoadDesc>TODO</GenepackAutoLoadDesc>
+  <GenepackAutoLoadDesc>Se ativo, os transportadores armazenarão automaticamente esse pacote genético em um banco genético.</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>traços forçados</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -400,7 +400,7 @@
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>Extraíndo genes de {PAWN_nameDef}.</ExtractingXenogermFrom>
   <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
-  <ExtractionPausedNoPower>Extração pausada: sem energia</ExtractionPausedNoPower>
+  <ExtractionPausedNoPower>Extração pausada: sem energia (interrompido em {TIME})</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>Última ingestão de {CHEMICAL_label} há {DURATION}.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
@@ -482,7 +482,7 @@
   <!-- EN: Gestated {0} -->
   <GestatedMech>{0} gestado</GestatedMech>
   <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
-  <GestatingMechRequiresMechanitor>TODO</GestatingMechRequiresMechanitor>
+  <GestatingMechRequiresMechanitor>Requer {PAWN_nameDef} para continuar a gestação</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>Requer {PAWN_nameDef} para ser completado</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
@@ -608,7 +608,7 @@
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>Aguardando por ingredientes</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
-  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc>
+  <SubcoreScannerWaitingForIngredientsDesc>Os seguintes ingredientes devem ser carregados primeiro</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>Tem {0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -640,7 +640,7 @@
   <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>Implantação de xenogerminador</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>Um membro do grupro reimplantará seu xenogerminar em um colonista de sua escola, transformando assim seu colono em um deles. Seu colonista permanecerá parte de sua facção e sob seu controle.</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>Um membro do grupro reimplantará seu xenogerminar em um colono de sua escola, transformando assim seu colono em um deles. Seu colono permanecerá parte de sua facção e sob seu controle.</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
@@ -702,7 +702,7 @@
   <!-- EN: Fertilize -->
   <Fertilize>Fertilizar</Fertilize>
   <!-- EN: Fertilize {0_label} -->
-  <FertilizeThing>TODO</FertilizeThing>
+  <FertilizeThing>Fertilizar {0_label}</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>Não pode fertilizar</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
@@ -755,10 +755,6 @@
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>O bebê terá a composição genética de {0} e {1}.</IvfPregnancyLetterParents>
 
-  <!-- Projectile interceptor -->
-  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>Um escudo projetado de baixo ângulo que tentará parar projéteis ou estilhaços. Ele desliga instantaneamente se atingido por um EMP.</ProjectileInterceptorTip>
-
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
   <RemoteMechShieldTip>Um escudo remoto projetado por um mecanizador. Ele tentará parar projéteis ou estilhaços, mas não fará nada contra ataques corpo a corpo ou calor. Impede que o usuário dispare e desativa instantaneamente se atingido por EMP</RemoteMechShieldTip>
@@ -770,8 +766,8 @@
   <MyChildIsSad>minha criança está triste</MyChildIsSad> 
   
   <!-- EN: Genetic {CHEMICAL_label} dependency -->
-  <GeneticChemicalDependency_Label>TODO</GeneticChemicalDependency_Label>
+  <GeneticChemicalDependency_Label>Dependência genética de {CHEMICAL_label}</GeneticChemicalDependency_Label>
   <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
-  <GeneticChemicalDependency_Desc>TODO</GeneticChemicalDependency_Desc>
+  <GeneticChemicalDependency_Desc>Preciso de {CHEMICAL_label} por causa da minha deficiência genética. Faz muito tempo que não tomo.</GeneticChemicalDependency_Desc>
 
 </LanguageData>

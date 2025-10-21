@@ -220,8 +220,8 @@
   <!-- EN: prateleira (projeto) -->
   <Blueprint_Install_Shelf.label>prateleira (projeto)</Blueprint_Install_Shelf.label>
   
-  <!-- EN: luminária negra (projeto) -->
-  <Blueprint_Install_StandingLamp.label>luminária negra (projeto)</Blueprint_Install_StandingLamp.label>
+  <!-- EN: luminária de chão (projeto) -->
+  <Blueprint_Install_StandingLamp.label>luminária de chão (projeto)</Blueprint_Install_StandingLamp.label>
   
   <!-- EN: banco (projeto) -->
   <Blueprint_Install_Stool.label>banco (projeto)</Blueprint_Install_Stool.label>
@@ -322,8 +322,8 @@
   <!-- EN: gerador solar (projeto) -->
   <Blueprint_SolarGenerator.label>gerador solar (projeto)</Blueprint_SolarGenerator.label>
   
-  <!-- EN: luminária negra (projeto) -->
-  <Blueprint_StandingLamp.label>luminária negra (projeto)</Blueprint_StandingLamp.label>
+  <!-- EN: luminária de chão (projeto) -->
+  <Blueprint_StandingLamp.label>luminária de chão (projeto)</Blueprint_StandingLamp.label>
   
   <!-- EN: ladrilho estéril (projeto) -->
   <Blueprint_SterileTile.label>ladrilho estéril (projeto)</Blueprint_SterileTile.label>
@@ -895,8 +895,8 @@
   
   <!-- EN: ponto de festa (construção) -->
   <Frame_PartySpot.label>ponto de festa (construção)</Frame_PartySpot.label>
-  <!-- EN: Designa um local onde festas serão concentradas. Festam acontecerão em torno do ponto. -->
-  <Frame_PartySpot.description>Designa um local onde festas serão concentradas. Festam acontecerão em torno do ponto.</Frame_PartySpot.description>
+  <!-- EN: Designa um local onde festas serão concentradas. Festas acontecerão em torno do ponto. -->
+  <Frame_PartySpot.description>Designa um local onde festas serão concentradas. Festas acontecerão em torno do ponto.</Frame_PartySpot.description>
   
   <!-- EN: refrigerador primitivo (construção) -->
   <Frame_PassiveCooler.label>refrigerador primitivo (construção)</Frame_PassiveCooler.label>
@@ -945,8 +945,8 @@
   
   <!-- EN: prateleira (construção) -->
   <Frame_Shelf.label>prateleira (construção)</Frame_Shelf.label>
-  <!-- EN: Itens armazenados nisto não deteriorarão, mesmo se no lado de fora. -->
-  <Frame_Shelf.description>Itens armazenados nisto não deteriorarão, mesmo se no lado de fora.</Frame_Shelf.description>
+  <!-- EN: Uma prateleira tripla que comporta três vezes mais que um terreno vazio. Itens armazenados nisto não deteriorarão, mesmo se no lado de fora.\n\nComo o espaço nas prateleiras é limitado, elas não podem conter pedaços, mobílias, plantas e cadáveres grandes. -->
+  <Frame_Shelf.description>Uma prateleira tripla que comporta três vezes mais que um terreno vazio. Itens armazenados nisto não deteriorarão, mesmo se no lado de fora.\n\nComo o espaço nas prateleiras é limitado, elas não podem conter pedaços, mobílias, plantas e cadáveres grandes.</Frame_Shelf.description>
   
   <!-- EN: viga estrutural (construção) -->
   <Frame_Ship_Beam.label>viga estrutural (construção)</Frame_Ship_Beam.label>
@@ -998,8 +998,8 @@
   <!-- EN: Produz eletricidade a partir da luz solar. Não funciona no escuro. -->
   <Frame_SolarGenerator.description>Produz eletricidade a partir da luz solar. Não funciona no escuro.</Frame_SolarGenerator.description>
   
-  <!-- EN: luminária negra (construção) -->
-  <Frame_StandingLamp.label>luminária negra (construção)</Frame_StandingLamp.label>
+  <!-- EN: luminária de chão (construção) -->
+  <Frame_StandingLamp.label>luminária de chão (construção)</Frame_StandingLamp.label>
   <!-- EN: Uma lâmpada elétrica de baixa potência que emite uma luz fraca sobre uma grande área. Pessoas que preferem trabalhar no escuro ficam felizes com esta fonte de luz. -->
   <Frame_StandingLamp.description>Uma lâmpada elétrica de baixa potência que emite uma luz fraca sobre uma grande área. Pessoas que preferem trabalhar no escuro ficam felizes com esta fonte de luz.</Frame_StandingLamp.description>
   
@@ -1075,8 +1075,8 @@
   
   <!-- EN: cápsula de transporte (construção) -->
   <Frame_TransportPod.label>cápsula de transporte (construção)</Frame_TransportPod.label>
-  <!-- EN: Um cápsula de carga lançável de viagem suborbital capaz de transportar pessoas, itens, ou animais. Pode ser usada para transporte, ataques surpresa, ou reforçar as batalhas. -->
-  <Frame_TransportPod.description>Um cápsula de carga lançável de viagem suborbital capaz de transportar pessoas, itens, ou animais. Pode ser usada para transporte, ataques surpresa, ou reforçar as batalhas.</Frame_TransportPod.description>
+  <!-- EN: Uma cápsula de carga lançável capaz de transportar pessoas, itens ou animais. Pode ser usada para enviar presentes, transportar pessoas ou suprimentos, realizar ataques surpresa ou reforçar batalhas. -->
+  <Frame_TransportPod.description>Uma cápsula de carga lançável capaz de transportar pessoas, itens ou animais. Pode ser usada para enviar presentes, transportar pessoas ou suprimentos, realizar ataques surpresa ou reforçar batalhas.</Frame_TransportPod.description>
   
   <!-- EN: televisão de tubo (construção) -->
   <Frame_TubeTelevision.label>televisão de tubo (construção)</Frame_TubeTelevision.label>
@@ -1259,7 +1259,7 @@
   <Meat_Panther.description>Carne crua esquartejada. Pode ser cozida para refeições, ou consumida crua.</Meat_Panther.description>
   
   <!-- EN: carne de porco -->
-  <Meat_Pig.label>carne suína</Meat_Pig.label>
+  <Meat_Pig.label>carne de porco</Meat_Pig.label>
   <!-- EN: Carne crua esquartejada. Pode ser cozida para refeições, ou consumida crua. -->
   <Meat_Pig.description>Carne crua esquartejada. Pode ser cozida para refeições, ou consumida crua.</Meat_Pig.description>
   

@@ -105,6 +105,8 @@
   <RitualDisabledNoAltar>nenhum altar acessível.</RitualDisabledNoAltar>
   <!-- EN: Bestowing Ceremony -->
   <RitualBestowingCeremony>Cerimônia de Outorga</RitualBestowingCeremony>
+  <!-- EN: No suitable location near bestower -->
+  <BestowingSpotUnavailable>Nenhum local adequado próximo ao doador</BestowingSpotUnavailable>
 
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
   <TotalMeditationToday>Meditação total de hoje: {0} (multiplicador de progresso: {1})</TotalMeditationToday>
@@ -161,7 +163,7 @@
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>A carga necessária ainda não foi carregada completamente!</ShuttleRequiredItemsNotSatisfied>
   <!-- EN: Cannot load {0_labelShort} -->
-  <CannotLoadIntoShuttle>TODO</CannotLoadIntoShuttle>
+  <CannotLoadIntoShuttle>Não é possível carregar {0_labelShort}</CannotLoadIntoShuttle>
 
   <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>sem calor para descarregar.</AbilityNoEntropyToDump>
